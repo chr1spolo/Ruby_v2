@@ -1,11 +1,15 @@
 puts "¿Cual es tu nombre?"
 
 nombre = gets.chomp
+#chomp lo que hace es quitar el salto de linea luego de recibir lo typeado en la consola.
 
-if nombre == 'Christian'
-    puts "Bienvenido #{nombre}, eres el máster."
-elseif == 'Linda'
-    puts "Eres la mujer más hermosa del planeta."
+case nombre
+when "Christian"
+    puts "Bienvenido #{nombre}, máster."
+when "Linda"
+    puts "Bienvenida, novia de Chris, él te ama <3"
 else
-    puts "Hola, bienvenido."
+    puts "No identificado"
 end
+
+gets

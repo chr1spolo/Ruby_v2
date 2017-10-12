@@ -67,3 +67,11 @@ Estructuras selectivas
 Las estructuras selectivas son esos fragmentos de código en los que se evalúa una condición y según el resultado es que podemos tomar la decisión de qué camino tomar.
 If, elsif, else = Lo que hacen es preguntar si una condición se cumple para ejecutar el código en función de esa condición.
 case, when, else = Tomamos una variable con distintos casos con los cuales queremos que se compare.
+
+Definición e invocación de métodos
+Método = Es una sección de código que podemos reutilizar y a la cual vamos a poder nombrar. Este bloque de código debe ser escrito para una tarea en específico en el programa.
+La razón por la que nosotros debemos separar nuestro programa en métodos es porque si algo sale mal es mucho más fácil reconocer en qué método o en qué bloque de código en específico existe el problema. Además de que también nos permite reutilizar y no hacer tanto código espagueti en nuestro programa.
+Los métodos se definen en tres partes:
+- El encabezado o cabecera: Consta de la palabra reservada “def” seguida por el nombre del método que necesitemos y una parte que es opcional son los argumentos que nosotros le podríamos poner.
+- El cuerpo: Es la parte en la que va el código que debemos ejecutar.
+- El fin: Sería la palabra reservada “end”
