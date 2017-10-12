@@ -1,0 +1,69 @@
+El creador de Ruby es Yukihiro “Matz” Matsumoto. Éste es un lenguaje de programación que fue hecho con la mezcla de otros lenguajes: Perl, Ada, Lisp, Eiffel y Smaltalk.
+Todas las partes tomadas de estos lenguajes logran hacer de Ruby un lenguaje de programación que incorpora programación imperativa y programación funcional.
+
+La liberación oficial del lenguaje fue en el año 1995 y desde entonces se ha rodeado de una gran comunidad que ha ido haciendo crecer las librerías, llamadas gemas, ya que este lenguaje es completamente gratis no solamente al usarlo, sino también en su distribución, puedes copiarlo y usarlo libremente.
+
+Estos son algunos aspectos relevantes de este lenguaje:
+
+Ruby es un lenguaje de programación orientado a objetos. Todo es un objeto. Existen muchos lenguajes en los que los números por ejemplo, no pueden ser objetos, en Ruby lo son.
+
+Influenciado por el lenguaje de programación Smaltalk, Ruby permite que se le puedan colocar variables de instancia a todos los tipos de datos que tiene, incluidos los números.
+
+Todas las partes más importantes de Ruby pueden ser modificadas y redefinidas libremente. Es un lenguaje muy flexible.
+
+Tiene un fácil manejos de errores con su famoso manejo de excepciones, similar a Java y Python.
+
+Se puede utilizar Ruby desde C con mucha facilidad y de forma simple.
+
+Ruby es utilizado mayormente en GNU/Linux, pero es completamente posible que corra en UNIX, Mac OS, Windows.
+
+Los bloques en Ruby están inspirados en lenguajes de programación funcionales, especialmente en Lisp. No es necesario crear un método para cada iteración, con los bloques, un método puede hacer el número de iteraciones que necesites.
+
+En Ruby no es necesario declarar variables, existen convenciones simples para determinar el alcance de las variables:
+
+var puede ser una variable local.
+@var es una variable de instancia.
+$var es una variable global.
+Ahora que ya sabes de dónde viene Ruby y cuáles son algunos de los aspectos más relevantes, puedes comenzar el curso y contarnos más de los proyectos en los que tienes pensado usar este lenguaje de programación.
+
+Déjanos también a lo largo del curso, en el sistema de discusiones, qué temas te gustaría que profundizaramos más.
+
+Características de Ruby:
+Casi todo en Ruby está orientado a objetos.
+Es un lenguaje interpretado, lo que significa que no necesitas un compilador externo para poder ejecutar el lenguaje.
+Es dinámicamente tipado, lo que significa que no necesitamos definir cierto tipo de variables, sino que el lenguaje lo va a interpretar por nosotros.
+Es muy expresivo. Es muy parecido al lenguaje humano lo que lo hace muy fácil de leer.
+Este lenguaje nombra a sus librerías “Gemas”.
+Tiene muchos frameworks para hacer aplicaciones web.
+Este lenguaje se caracteriza por su comunidad grande.
+
+Todos los archivos deben guardarse con la extensión .rb
+Para comentar el código en Ruby, se debe poner numeral (#) y con esto no afectamos la ejecución de código.
+
+Operaciones y variables
+Matemáticas en Ruby
+Desde la consola podemos utilizar Ruby como una calculadora, ya que podemos realizar operaciones simples y nos devolverá un resultado.
+En el caso de las divisiones, el resultado que nos va a arrojar siempre va a ser un número entero sin importar si el número debiera salir con decimal. Para poder obtener números decimales en la respuesta simplemente debemos convertir uno de los números de la operación en un número decimal.
+Para realizar operaciones en las que deseamos saber el residuo, el símbolo que debemos utilizar es %.
+Para hacer operaciones de potencias debemos colocar ** seguido de la potencia.
+Los operadores matemáticos son los que nos van a retornar un número o un número decimal en el caso de la división.
+Los operadores booleanos son aquellos que nos van a retornar solo valores booleanos. Estos operadores se dividen en dos:
+a) Comparativos. Comparan dos números o dos palabras.
+b) Lógicos. Necesitan valores booleanos para poder ser comparados.
+Otros datos de Ruby
+Algo adicional con lo que cuenta Ruby es que sin necesidad de importar módulos adicionales, es decir, una librería adicional, podríamos llamarla.
+¿Qué es un módulo? Un módulo para Ruby es cómo podríamos reunir un conjunto de funciones que van a tener un mismo fin.
+¿Para qué sirven las comillas dobles en los puts de Ruby? Podemos inyectar código Ruby dentro de una cadena.
+
+Small note
+
+\n & \t no funcionan con comillas simples 😃
+puts ‘primera linea\nsegundalinea’ #doesn’t work
+puts ‘\ttab’	#doesn’t work
+puts “primera linea\nsegundalinea”	#works well
+puts “\ttab”	#works well
+
+Estructuras selectivas
+Las estructuras selectivas son esos fragmentos de código en los que se evalúa una condición y según el resultado es que podemos tomar la decisión de qué camino tomar.
+If, elsif, else = Lo que hacen es preguntar si una condición se cumple para ejecutar el código en función de esa condición.
+case, when, else = Tomamos una variable con distintos casos con los cuales queremos que se compare.
