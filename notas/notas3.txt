@@ -11,3 +11,28 @@ Son métodos sin nombre.
 Se pueden asignar a una variable.
 Se tienen qué llamar (.call) para que se puedan ejecutar.
 Lambdas es un método que está heredando todos los métodos que tiene procs.
+
+#como leer archivos en ruby?
+con la clase File y el metodo open podemos abrir un archivo existente y si no existe se crea automaticamente
+
+file = File.open(nombre_del_archivo, metodo_a_utilizar)
+
+w: write
+r: read
+
+file.puts | write: funciona para escribir en un archivo.
+
+file.close: para salir de la edición del archivo.
+
+file.read: ver el contenido del archivo
+
+File.open(nombre_del_archivo).readlines.each : itera sobre cada linea que tiene el archivo, es decir convierte cada linea en una cadena de texto y guardarlo en un array
+
+Manejo de excepciones
+El manejo de excepciones nos sirve para controlar los errores que Ruby nos arroja por defecto cuando ejecutamos un código.
+Existen cierto tipo de palabras reservadas para este manejo de excepciones:
+begin, end: Para definir un bloque.
+rescue: Para controlar una excepción.
+else: Código que se ejecuta si no hubo excepciones.
+ensure: Para forzar que se ejecute código si se lanza o no una excepción.
+raise o fail: Para lanzar una excepción.
