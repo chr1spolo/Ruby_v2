@@ -36,3 +36,13 @@ rescue: Para controlar una excepción.
 else: Código que se ejecuta si no hubo excepciones.
 ensure: Para forzar que se ejecute código si se lanza o no una excepción.
 raise o fail: Para lanzar una excepción.
+
+Objetos en Ruby:
+Ruby es un lenguaje orientado a objetos.
+Casi todo en Ruby es un objeto.
+Los objetos tienen datos (atributos)y comportamiento (métodos).
+Los objetos colaboran con otros objetos.
+La clases son las definiciones de los objetos, estas son algunas características:
+Contenedor que tiene propiedades tales como métodos y variables.
+Pueden heredar propiedades.
+Permite herencia simple.
