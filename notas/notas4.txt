@@ -1,0 +1,16 @@
+Encapsulamiento
+Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que solo se pueda cambiar mediante las operaciones definidas para ese objeto.
+La programación orientada a objetos tiene ciertas características, como por ejemplo, el encapsulamiento.
+Estas son algunas características del encapsulamiento:
+Exponer el comportamiento externo de la clase mediante métodos.
+Proteger los datos internos.
+Scopes en Ruby: public, protected, private.
+Accessors.
+Tipos de Accessors:
+attr_reader
+attr_writer
+attr_accessor
+Los modificadores de acceso son el acceso que le podemos dar a distintos métodos, estos pueden ser:
+- Public. Default
+- Private. Solo van a funcionar en esa clase, no se pueden llamar desde el objeto ni pueden heredar una clase hijo.
+- Protected. No se pueden llamar una vez creado el objeto, pero sí va a poder heredar una clase hijo.
