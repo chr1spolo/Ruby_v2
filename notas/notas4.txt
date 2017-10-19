@@ -34,3 +34,7 @@ Se puede crear mediante:
 Método include
 Método extend
 
+Polimorfismo
+Estas son algunas características del Polimorfismo:
+Las subclases pueden definir su comportamiento propio y compartir la funcionalidad de la clase padre.
+los métodos se pueden sobre-escribir.
