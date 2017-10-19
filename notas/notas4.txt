@@ -14,3 +14,14 @@ Los modificadores de acceso son el acceso que le podemos dar a distintos método
 - Public. Default
 - Private. Solo van a funcionar en esa clase, no se pueden llamar desde el objeto ni pueden heredar una clase hijo.
 - Protected. No se pueden llamar una vez creado el objeto, pero sí va a poder heredar una clase hijo.
+
+La herencia es específica de la programación orientada a objetos, donde una clase nueva se crea a partir de una clase existente. La herencia (a la que habitualmente se denomina subclase) proviene del hecho de que la subclase (la nueva clase creada) contiene las atributos y métodos de la clase primaria.
+
+Características de las herencias en Ruby:
+Mecanismo para reutilizar código.
+Una clase (hija) extiende el comportamiento de otra clase (padre).
+Aplican las modificaciones de acceso.
+Se pueden sobre-escribir los métodos.
+Todas las clases heredan de BasicObject.
+No existe herencia múltiple.
+Ruby tiene una palabra reservada para el caso de herencias llamada “super”. Lo que hace super es poder obtener todas las líneas de código que tiene el mismo método en una clase padre.
